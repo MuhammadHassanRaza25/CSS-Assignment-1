@@ -7,40 +7,46 @@ button{
     font-weight: bolder;
     width: 90px;
     height: 25px;
+    color: white;
+    border-radius: 5px;
+   
+}
+button:hover{
+    border-radius: 5px;
+   font-style: italic;
+    box-shadow: 1px 1px 5px black !important;
 }
 .Head{
     font-size: xx-large;
     background-color: orange;
     font-weight: bold;
     color: white ;
-    
+    box-shadow: 2px 4px 5px black !important;
 }
 h1{
     background-color: orange;
     color: white;
     text-align: center;
     font-style: italic;
-    
+    box-shadow: 1px 1px 5px black !important;
 }
 h2{
     background-color: orange;
     color: white;
     text-align: center;
-
+    box-shadow: 1px 1px 5px black !important;
 }
 
-ul{
-    background-color: rgb(255, 186, 58);
-    color:black;
-    width: 470px;
-    
-}
-#U{
-    background-color: rgb(255, 186, 58);
-    color:black;
-    width: 440px;
-}
-#img{
+#image{
     text-align: center;
+}
+
+
+.bdiv{
+    background-color: rgb(255, 184, 54);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
 }
 
