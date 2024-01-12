@@ -1,3 +1,9 @@
+body{
+    font-family: sans-serif !important;
+}
+
+
+
 .btn{
     display: flex;
     justify-content: space-evenly;
@@ -9,7 +15,7 @@ button{
     height: 25px;
     color: white;
     border-radius: 5px;
-   
+   cursor: pointer;
 }
 button:hover{
     border-radius: 5px;
@@ -49,4 +55,24 @@ h2{
     color: white;
     font-weight: bold;
 }
-
+th{
+    background-color: orange;
+   width: 270px;
+   height: 50px;
+   border-collapse: separate;
+   cursor: pointer;
+}
+table{
+    margin-left:390px ;
+}
+th:hover{
+    box-shadow: 1px 1px 5px black !important;
+    background-color:orange;
+}
+a:link{
+    text-decoration-line: none;
+}
+a{
+    color: white;
+   
+}
