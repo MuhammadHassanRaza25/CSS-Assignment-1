@@ -1,33 +1,23 @@
 body{
-    font-family: sans-serif !important;
+    font-family: monospace !important;
+}
+*{
+    margin: 3px;
 }
 
-
-
-.btn{
-    display: flex;
-    justify-content: space-evenly;
-}
-button{
-    background-color: orange;
-    font-weight: bolder;
-    width: 90px;
-    height: 25px;
-    color: white;
-    border-radius: 5px;
-   cursor: pointer;
-}
-button:hover{
-    border-radius: 5px;
-   font-style: italic;
-    box-shadow: 1px 1px 5px black !important;
-}
 .Head{
-    font-size: xx-large;
+    font-size: 50px;
     background-color: orange;
     font-weight: bold;
-    color: white ;
-    box-shadow: 2px 4px 5px black !important;
+    color:white ;
+    line-height: 1.3;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+span{
+    display: flex;
+ justify-content: center;
 }
 h1{
     background-color: orange;
@@ -35,16 +25,15 @@ h1{
     text-align: center;
     font-style: italic;
     box-shadow: 1px 1px 5px black !important;
+    margin-bottom: 15px;
+    padding: 20px;
 }
 h2{
     background-color: orange;
     color: white;
     text-align: center;
     box-shadow: 1px 1px 5px black !important;
-}
-
-#image{
-    text-align: center;
+    padding: 20px;
 }
 
 
@@ -55,24 +44,107 @@ h2{
     color: white;
     font-weight: bold;
 }
-th{
-    background-color: orange;
-   width: 270px;
-   height: 50px;
-   border-collapse: separate;
-   cursor: pointer;
-}
-table{
-    margin-left:390px ;
-}
-th:hover{
-    box-shadow: 1px 1px 5px black !important;
-    background-color:orange;
-}
 a:link{
     text-decoration-line: none;
 }
 a{
     color: white;
-   
+    font-size: larger;
 }
+a:hover{
+    color: rgb(255, 255, 92);
+}
+.T1{
+   width: 100%;
+}
+.T1 th{
+    background-color: orange;
+    padding: 20px;
+    font-size: 23px;
+    width: 300px;
+}
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    border: 1px solid black;
+}
+tbody{
+    display: table;
+    vertical-align: middle;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+}
+.T2{
+    width:50% ;
+}
+.T2 th{
+    background-color: orange;
+    padding: 15px;
+    font-size: 23px;
+    width: 300px;
+    font-size: 20px;
+}
+ 
+th:hover{
+    transform: scale(1.04);
+}
+
+#aheading{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 40px;
+    text-align: center;
+}
+.dv{
+    background-color: orange; 
+    min-height: 200px;
+}
+#Feedback{
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+form input{
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid  black;
+}
+textarea{
+    border: 2px solid  black;
+}
+form select{
+    border-radius: 5px;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: large;
+}
+button{
+    background-color:orange ;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid  black;
+    font-size: 15px;
+    
+}
+button:hover{
+    transform: scale(1.04);
+    border: 1px solid black;
+    background-color:rgb(255, 195, 83); /* Green */
+    color: white;
+}
+.about{
+    background-color:rgb(255,190,95);
+    padding: 30px;
+}
+
+ 
